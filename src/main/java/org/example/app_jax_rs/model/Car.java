@@ -1,4 +1,4 @@
-package org.example.app_jax_rs;
+package org.example.app_jax_rs.model;
 
 public class Car {
 

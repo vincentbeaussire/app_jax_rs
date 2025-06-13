@@ -1,8 +1,10 @@
-package org.example.app_jax_rs;
+package org.example.app_jax_rs.controler;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
+import org.example.app_jax_rs.service.CarService;
+import org.example.app_jax_rs.model.Car;
 
 @Path("/car")
 public class CarResource {
